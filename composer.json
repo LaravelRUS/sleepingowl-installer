@@ -1,5 +1,5 @@
 {
-    "name": "LaravelRUS/sleepingowl-installer",
+    "name": "laravelrus/sleepingowl-installer",
     "description": "SleepingOwl application installer.",
     "keywords": ["laravel", "SleepingOwl"],
     "license": "MIT",
