@@ -92,7 +92,7 @@ class NewCommand extends Command
             $output->write($line);
         });
 
-        $output->writeln('<comment>Application ready! Build something amazing.</comment>');
+        $output->writeln('<comment>AdminPanel ready! Build something amazing.</comment>');
     }
 
     /**
