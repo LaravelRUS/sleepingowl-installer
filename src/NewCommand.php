@@ -63,9 +63,11 @@ class NewCommand extends Command
 
         $commands = [
             $composer.' install --no-scripts',
+            $composer.' require laravelrus/sleepingowl:latest',
             $composer.' run-script post-root-package-install',
             $composer.' run-script post-create-project-cmd',
             $composer.' run-script post-autoload-dump',
+            'php artisan sleepingowl:install'
         ];
 
         if ($input->getOption('no-ansi')) {

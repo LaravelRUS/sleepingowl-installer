@@ -1,12 +1,16 @@
 {
-    "name": "laravel/installer",
-    "description": "Laravel application installer.",
-    "keywords": ["laravel"],
+    "name": "LaravelRUS/sleepingowl-installer",
+    "description": "SleepingOwl application installer.",
+    "keywords": ["laravel", "SleepingOwl"],
     "license": "MIT",
     "authors": [
         {
             "name": "Taylor Otwell",
             "email": "taylorotwell@gmail.com"
+        },
+        {
+            "name": "Dave Aios",
+            "email": "aioslike@gmail.com"
         }
     ],
     "autoload": {
@@ -22,6 +26,6 @@
         "symfony/process": "~3.0|~4.0"
     },
     "bin": [
-        "laravel"
+        "sleepingowl"
     ]
 }
