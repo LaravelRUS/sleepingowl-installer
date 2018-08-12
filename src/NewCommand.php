@@ -25,7 +25,7 @@ class NewCommand extends Command
     {
         $this
             ->setName('new')
-            ->setDescription('Create a new Laravel application')
+            ->setDescription('Create a new SleepingOwl application')
             ->addArgument('name', InputArgument::OPTIONAL)
             ->addOption('dev', null, InputOption::VALUE_NONE, 'Installs the latest "development" release')
             ->addOption('force', null, InputOption::VALUE_NONE, 'Forces install even if the directory already exists');
@@ -63,7 +63,7 @@ class NewCommand extends Command
 
         $commands = [
             $composer.' install --no-scripts',
-            $composer.' require laravelrus/sleepingowl:latest',
+            $composer.' require laravelrus/sleepingowl',
             $composer.' run-script post-root-package-install',
             $composer.' run-script post-create-project-cmd',
             $composer.' run-script post-autoload-dump',

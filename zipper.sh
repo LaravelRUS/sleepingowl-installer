@@ -3,7 +3,7 @@ wget https://github.com/laravel/laravel/archive/master.zip
 unzip master.zip -d working
 cd working/laravel-master
 composer install
-composer require laravelrus/sleepingowl:latest
+composer require laravelrus/sleepingowl
 zip -ry ../../laravel-craft.zip .
 cd ../..
 mv laravel-craft.zip public/laravel-craft.zip
